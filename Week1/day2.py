@@ -8,7 +8,7 @@ def two_sum_brute_force(nums, target):
     return None  # If no solution found
 
 # || Using a Hash Map
-def two_sum_optimized(nums, target):
+def two_sum(nums, target):
     num_map = {}  
     for i, num in enumerate(nums):
         complement = target - num
