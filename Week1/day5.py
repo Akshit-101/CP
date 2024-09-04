@@ -10,7 +10,7 @@ def isValid(s: str) -> bool:
                 stack.pop()
             else:
                 return False
-    return not stack
+    return not stack 
 
 
 
