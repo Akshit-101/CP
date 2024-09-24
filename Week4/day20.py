@@ -33,7 +33,7 @@ def myAtoi(s: str) -> int:
 print(myAtoi("   -42")) 
 print(myAtoi("00000123"))  
 
-# --------------------------------------  Sum of Beauty of All Substrings --------------------------------------
+# -------------------------------------- Count number of substrings --------------------------------------
 
 from collections import defaultdict
 
@@ -53,7 +53,6 @@ def substrCount(S: str, K: int) -> int:
                 left += 1
             
             count += (right - left + 1)
-        
         return count
     return atMostK(S, K) - atMostK(S, K - 1)
 
