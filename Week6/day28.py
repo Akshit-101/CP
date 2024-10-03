@@ -1,7 +1,5 @@
 
 # ------------------------------------- N-Queens -------------------------------------
- 
-
 def solveNQueens(n):
     # This function checks if it's safe to place a queen at the current row and column
     def is_safe(row, col, diagonals, anti_diagonals, cols):
