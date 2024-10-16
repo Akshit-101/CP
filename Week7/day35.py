@@ -38,6 +38,5 @@ def maxProduct(words):
     
     return max_product
 
-# Example usage:
 print(maxProduct(["abcw","baz","foo","bar","xtfn","abcdef"]))  # Output: 16
 print(maxProduct(["a","ab","abc","d","cd","bcd","abcd"]))      # Output: 4
