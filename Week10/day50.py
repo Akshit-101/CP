@@ -1,4 +1,4 @@
-# ---------------------- Maximal Rectangle -------------------------
+# ---------------------- Question: Maximal Rectangle -------------------------
 
 from typing import List
 
@@ -22,6 +22,7 @@ class Solution:
         
         return max_area
 
+
     def largestRectangleArea(self, heights: List[int]) -> int:
         stack = []
         max_area = 0
@@ -37,7 +38,9 @@ class Solution:
         heights.pop()
         return max_area
 
+
 solution = Solution()
 print(solution.maximalRectangle([["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]))  
 print(solution.maximalRectangle([["0"]])) 
-print(solution.maximalRectangle([["1"]])) 
+print(solution.maximalRectangle([["1"]]))  
+
